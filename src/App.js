@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import RNSignatureCanvas from './signature-canvas';
+
+
 
 function App() {
   return (
@@ -17,6 +20,7 @@ function App() {
         >
           Learn React
         </a>
+        <RNSignatureCanvas />
       </header>
     </div>
   );
