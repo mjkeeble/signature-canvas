@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import RNSignatureCanvas from './signature-canvas';
+import SigCanvas from './signature-canvas';
 
 
 
@@ -8,19 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <RNSignatureCanvas />
+        <SigCanvas />
       </header>
     </div>
   );
